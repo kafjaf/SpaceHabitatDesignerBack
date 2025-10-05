@@ -35,7 +35,7 @@ COPY ["SpaceHouse.Application/SpaceHouse.Application.csproj", "SpaceHouse.Applic
 COPY ["SpaceHouse.Domain/SpaceHouse.Domain.csproj", "SpaceHouse.Domain/"]
 COPY ["SpaceHouse.Infrastructure/SpaceHouse.Infrastructure.csproj", "SpaceHouse.Infrastructure/"]
 
-# Restaurer les packages pour tous les projets
+# Restaurer les packages pour tous les projets//
 RUN dotnet restore "SpaceHouse.API/SpaceHouse.API.csproj"
 
 # Copier le reste du code
