@@ -1,0 +1,12 @@
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\bin\Debug\net9.0\SpaceHouse.Domain.deps.json
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\bin\Debug\net9.0\SpaceHouse.Domain.dll
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\bin\Debug\net9.0\SpaceHouse.Domain.pdb
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\SpaceHouse.Domain.csproj.AssemblyReference.cache
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\SpaceHouse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\SpaceHouse.Domain.AssemblyInfoInputs.cache
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\SpaceHouse.Domain.AssemblyInfo.cs
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\SpaceHouse.Domain.csproj.CoreCompileInputs.cache
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\SpaceHouse.Domain.dll
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\refint\SpaceHouse.Domain.dll
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\SpaceHouse.Domain.pdb
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Domain\obj\Debug\net9.0\ref\SpaceHouse.Domain.dll

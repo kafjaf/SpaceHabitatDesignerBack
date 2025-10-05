@@ -1,0 +1,16 @@
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHouse.Application.csproj.AssemblyReference.cache
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHouse.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHouse.Application.AssemblyInfoInputs.cache
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHouse.Application.AssemblyInfo.cs
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHouse.Application.csproj.CoreCompileInputs.cache
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\bin\Debug\net9.0\SpaceHouse.Application.deps.json
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\bin\Debug\net9.0\SpaceHouse.Application.dll
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\bin\Debug\net9.0\SpaceHouse.Application.pdb
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\bin\Debug\net9.0\SpaceHouse.Domain.dll
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\bin\Debug\net9.0\SpaceHouse.Domain.pdb
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHou.C03E5D11.Up2Date
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHouse.Application.dll
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\refint\SpaceHouse.Application.dll
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHouse.Application.pdb
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\ref\SpaceHouse.Application.dll
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.Application\obj\Debug\net9.0\SpaceHouse.Application.sourcelink.json

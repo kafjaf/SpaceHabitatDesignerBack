@@ -1,0 +1,306 @@
+{
+  "x-generator": "NSwag v14.6.1.0 (NJsonSchema v11.5.1.0 (Newtonsoft.Json v13.0.0.0))",
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API Documentation",
+    "description": "API Du Defis Nasa Logicielle",
+    "version": "v1"
+  },
+  "paths": {
+    "/healthz": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "operationId": "HealthCheck",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/api/Habitats/types": {
+      "get": {
+        "tags": [
+          "Habitats"
+        ],
+        "operationId": "Habitats_GetHabitatTypes",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HabitatTypeDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Validation/habitat": {
+      "post": {
+        "tags": [
+          "Validation"
+        ],
+        "operationId": "Validation_ValidateHabitat",
+        "requestBody": {
+          "x-name": "request",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValidateHabitatRequestDto"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ValidationResultDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ZonesFonctionnelles": {
+      "get": {
+        "tags": [
+          "ZonesFonctionnelles"
+        ],
+        "operationId": "ZonesFonctionnelles_GetDefaultZones",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ZoneDeFonctionnementDefautDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HabitatTypeDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      },
+      "ValidationResultDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "isValid": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string"
+          },
+          "zoneId": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      },
+      "ValidateHabitatRequestDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "missionDurationInDays": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "destination": {
+            "$ref": "#/components/schemas/Destination"
+          },
+          "habitatShape": {
+            "$ref": "#/components/schemas/FormeHabitat"
+          },
+          "habitatRadius": {
+            "type": "number",
+            "format": "double"
+          },
+          "habitatHeight": {
+            "type": "number",
+            "format": "double"
+          },
+          "zones": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FunctionalZoneDto"
+            }
+          },
+          "crewSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "missionDuration": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "Destination": {
+        "type": "string",
+        "description": "",
+        "x-enumNames": [
+          "OrbiteTerrestreBasse",
+          "OrbiteLunaire",
+          "SurfaceLunaire",
+          "TransitVersMars",
+          "OrbiteMartienne",
+          "SurfaceMartienne"
+        ],
+        "enum": [
+          "OrbiteTerrestreBasse",
+          "OrbiteLunaire",
+          "SurfaceLunaire",
+          "TransitVersMars",
+          "OrbiteMartienne",
+          "SurfaceMartienne"
+        ]
+      },
+      "FormeHabitat": {
+        "type": "string",
+        "description": "",
+        "x-enumNames": [
+          "Cylindre",
+          "Sphère",
+          "Tore",
+          "SphèreDeBernal"
+        ],
+        "enum": [
+          "Cylindre",
+          "Sphère",
+          "Tore",
+          "SphèreDeBernal"
+        ]
+      },
+      "FunctionalZoneDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "$ref": "#/components/schemas/TypeZoneFonctionnelle"
+          },
+          "name": {
+            "type": "string"
+          },
+          "widthM": {
+            "type": "number",
+            "format": "double"
+          },
+          "depthM": {
+            "type": "number",
+            "format": "double"
+          },
+          "heightM": {
+            "type": "number",
+            "format": "double"
+          },
+          "positionX": {
+            "type": "number",
+            "format": "double"
+          },
+          "positionY": {
+            "type": "number",
+            "format": "double"
+          },
+          "positionZ": {
+            "type": "number",
+            "format": "double"
+          }
+        }
+      },
+      "TypeZoneFonctionnelle": {
+        "type": "string",
+        "description": "",
+        "x-enumNames": [
+          "Sommeil",
+          "Exercice",
+          "Hygiene",
+          "PreparationNourriture",
+          "GestionDéchets",
+          "Médical",
+          "Loisirs",
+          "Travail",
+          "Stockage",
+          "SCLVE"
+        ],
+        "enum": [
+          "Sommeil",
+          "Exercice",
+          "Hygiene",
+          "PreparationNourriture",
+          "GestionDéchets",
+          "Médical",
+          "Loisirs",
+          "Travail",
+          "Stockage",
+          "SCLVE"
+        ]
+      },
+      "ZoneDeFonctionnementDefautDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "$ref": "#/components/schemas/TypeZoneFonctionnelle"
+          },
+          "name": {
+            "type": "string"
+          },
+          "defaultWidthM": {
+            "type": "number",
+            "format": "double"
+          },
+          "defaultDepthM": {
+            "type": "number",
+            "format": "double"
+          },
+          "defaultHeightM": {
+            "type": "number",
+            "format": "double"
+          },
+          "colorHex": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
