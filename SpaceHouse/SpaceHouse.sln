@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A3DEABBF-459B-48DA-B3F7-E4B5F9CA36F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D07E1A3E-3F3E-48DD-8566-8371CD1C4824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceHouse.API", "..\SpaceHouse.API\SpaceHouse.API.csproj", "{9F844A86-85E4-43F2-90FD-C994EE62C089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceHouse.Domain", "..\SpaceHouse.Domain\SpaceHouse.Domain.csproj", "{81D625B7-CD2C-441A-B1D8-B4B74C48760E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceHouse.Infrastructure", "..\SpaceHouse.Infrastructure\SpaceHouse.Infrastructure.csproj", "{CF59ACA9-67E9-4275-BD8E-4F9254610A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceHouse.Application", "..\SpaceHouse.Application\SpaceHouse.Application.csproj", "{D59CA42B-8DC0-4219-A6BE-754AD32E08E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F844A86-85E4-43F2-90FD-C994EE62C089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F844A86-85E4-43F2-90FD-C994EE62C089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F844A86-85E4-43F2-90FD-C994EE62C089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F844A86-85E4-43F2-90FD-C994EE62C089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D625B7-CD2C-441A-B1D8-B4B74C48760E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D625B7-CD2C-441A-B1D8-B4B74C48760E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D625B7-CD2C-441A-B1D8-B4B74C48760E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D625B7-CD2C-441A-B1D8-B4B74C48760E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF59ACA9-67E9-4275-BD8E-4F9254610A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF59ACA9-67E9-4275-BD8E-4F9254610A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF59ACA9-67E9-4275-BD8E-4F9254610A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF59ACA9-67E9-4275-BD8E-4F9254610A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59CA42B-8DC0-4219-A6BE-754AD32E08E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59CA42B-8DC0-4219-A6BE-754AD32E08E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59CA42B-8DC0-4219-A6BE-754AD32E08E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59CA42B-8DC0-4219-A6BE-754AD32E08E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F844A86-85E4-43F2-90FD-C994EE62C089} = {A3DEABBF-459B-48DA-B3F7-E4B5F9CA36F9}
+		{81D625B7-CD2C-441A-B1D8-B4B74C48760E} = {A3DEABBF-459B-48DA-B3F7-E4B5F9CA36F9}
+		{CF59ACA9-67E9-4275-BD8E-4F9254610A40} = {A3DEABBF-459B-48DA-B3F7-E4B5F9CA36F9}
+		{D59CA42B-8DC0-4219-A6BE-754AD32E08E1} = {A3DEABBF-459B-48DA-B3F7-E4B5F9CA36F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA3AFCB8-0D89-4465-8DCE-84A8F0ECEBC1}
+	EndGlobalSection
+EndGlobal

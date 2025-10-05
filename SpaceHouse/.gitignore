@@ -1,0 +1,58 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+*.log
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.ide/
+*.dbmdl
+*.pdb
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Compiled binaries
+*.exe
+*.dll
+*.app
+*.so
+*.dylib
+*.a
+*.lib
+
+# Autres fichiers temporaires
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# Configuration locale
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+# OS / IDE divers
+.DS_Store
+Thumbs.db
+
+# JetBrains / Rider
+.idea/
+*.iml
