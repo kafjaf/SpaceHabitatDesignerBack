@@ -72,3 +72,4 @@ D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.A
 D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.API\obj\Debug\net9.0\SpaceHouse.API.genruntimeconfig.cache
 D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.API\obj\Debug\net9.0\ref\SpaceHouse.API.dll
 D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.API\obj\Debug\net9.0\SpaceHouse.API.MvcApplicationPartsAssemblyInfo.cs
+D:\AllProjects\ErasmeWorskspace\SpaceHouseDefis\SpaceHouseDefisBack\SpaceHouse.API\obj\Debug\net9.0\SpaceHouse.API.sourcelink.json

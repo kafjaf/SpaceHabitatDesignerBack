@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceHouse.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9560b91e12d8640c82b6e63b7a425847f467b83b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b2d873f8bf2b6ee7ff24993fe6cdf8279a8ed88")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceHouse.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceHouse.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
